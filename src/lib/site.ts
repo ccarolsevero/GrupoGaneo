@@ -48,6 +48,7 @@ export const navLinks = [
     ],
   },
   { href: "/especies", label: "Espécies" },
+  { href: "/blog", label: "Blog" },
   { href: "/contato", label: "Contato" },
 ] as const;
 
