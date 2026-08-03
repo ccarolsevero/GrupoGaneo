@@ -42,7 +42,7 @@ export default function HomePage() {
                 href={site.whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-white/40 bg-white/5 px-7 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/15"
+                className="btn-whatsapp px-7 py-3.5 text-sm"
               >
                 Fale com nossa equipe
               </a>

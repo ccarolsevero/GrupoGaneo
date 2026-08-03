@@ -43,10 +43,10 @@ export function Header({ compact = false }: { compact?: boolean }) {
           <Image
             src={solid ? "/logo-ganeo.png" : "/logo-ganeo-white.png"}
             alt={site.name}
-            width={220}
-            height={72}
+            width={176}
+            height={92}
             priority
-            className="h-10 w-auto object-contain sm:h-12"
+            className="h-auto w-36 object-contain object-left sm:w-40 lg:w-44"
           />
         </Link>
 
@@ -110,7 +110,7 @@ export function Header({ compact = false }: { compact?: boolean }) {
             href={site.whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden items-center gap-2 rounded-full bg-cyan px-4 py-2.5 text-sm font-bold text-navy-deep transition hover:bg-cyan-soft sm:inline-flex"
+            className="btn-whatsapp hidden px-4 py-2.5 text-sm sm:inline-flex"
           >
             Orçamento WhatsApp
           </a>
@@ -173,7 +173,7 @@ export function Header({ compact = false }: { compact?: boolean }) {
               href={site.whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 rounded-full bg-navy px-4 py-3 text-center text-sm font-bold text-white"
+              className="btn-whatsapp mt-2 w-full px-4 py-3 text-sm"
             >
               Falar no WhatsApp
             </a>

@@ -95,7 +95,7 @@ export default function ContatoPage() {
                 href={`${site.whatsappHref}?text=${encodeURIComponent("Olá! Gostaria de falar com o Grupo Ganéo.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3.5 text-sm font-bold text-white transition hover:bg-[#1ebe57]"
+                className="btn-whatsapp mt-8 px-6 py-3.5 text-sm"
               >
                 Abrir WhatsApp
               </a>

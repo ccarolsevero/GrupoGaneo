@@ -105,7 +105,7 @@ export function ContactForm({
 
       <button
         type="submit"
-        className="w-full rounded-full bg-navy px-5 py-3.5 text-sm font-bold text-white transition hover:bg-blue"
+        className="btn-whatsapp w-full px-5 py-3.5 text-sm"
       >
         {sent ? "Abrindo WhatsApp..." : "Enviar pelo WhatsApp"}
       </button>

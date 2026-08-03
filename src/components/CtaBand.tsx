@@ -41,7 +41,11 @@ export function CtaBand({
                   ? "noopener noreferrer"
                   : undefined
               }
-              className="rounded-full bg-cyan px-6 py-3.5 text-sm font-bold text-navy-deep transition hover:bg-cyan-soft"
+              className={
+                primaryHref.includes("wa.me") || primaryHref.includes("whatsapp")
+                  ? "btn-whatsapp px-6 py-3.5 text-sm"
+                  : "rounded-full bg-cyan px-6 py-3.5 text-sm font-bold text-navy-deep transition hover:bg-cyan-soft"
+              }
             >
               {primaryLabel}
             </a>

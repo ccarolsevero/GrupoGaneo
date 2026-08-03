@@ -107,7 +107,7 @@ export default function LagosPage() {
               href={`${site.whatsappHref}?text=${encodeURIComponent("Olá! Quero falar com um especialista sobre construção de lago.")}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 rounded-full bg-[#25D366] px-7 py-3.5 text-sm font-bold text-white shadow-[0_10px_28px_rgba(37,211,102,0.35)] transition hover:bg-[#1ebe57]"
+              className="btn-whatsapp px-7 py-3.5 text-sm"
             >
               <svg
                 viewBox="0 0 24 24"
@@ -274,7 +274,7 @@ export default function LagosPage() {
               href={`${site.whatsappHref}?text=${encodeURIComponent("Olá! Quero orçamento para construção de lago.")}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex rounded-full bg-cyan px-6 py-3.5 text-sm font-bold text-navy-deep"
+              className="btn-whatsapp mt-8 px-6 py-3.5 text-sm"
             >
               Abrir WhatsApp
             </a>
